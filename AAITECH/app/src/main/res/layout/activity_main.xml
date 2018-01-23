@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edu.aaitech.view.Cadastro">
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="433dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/id_cadastro_nome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="nome:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_cadastro_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="email:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_cadastro_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="senha:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_cadastro_telefone"
+            android:layout_width="397dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="telefone:"
+            android:inputType="phone"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            android:id="@+id/id_cadastro_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="endereço:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_cadastro_nomeEst"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="nome do estabelecimento:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/latitude"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="latitude:"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="longitude:"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/id_chave"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="chave de liberação:"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/id_btn_cadastar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/colorAccent"
+            android:text="CADASTRAR"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

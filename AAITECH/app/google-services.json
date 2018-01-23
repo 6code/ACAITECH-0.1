@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105592481605",
+    "firebase_url": "https://aulafirebase-9ed12.firebaseio.com",
+    "project_id": "aulafirebase-9ed12",
+    "storage_bucket": "aulafirebase-9ed12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105592481605:android:f7df4e8b4943e5d3",
+        "android_client_info": {
+          "package_name": "com.example.edu.aaitech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105592481605-0q6b5ebuvjc4dadp7hm71mra0954vrok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpwkAdZbrC-rR3xHm02TzQhubLnpnrdYs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
